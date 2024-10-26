@@ -18,3 +18,16 @@ console.log(booleanValue);
 // 1 => True; 0=> False;
 // "" => False;
 // "Gurudutt" =>true
+
+console.log("1" + 2); // Produce 12
+console.log(1 + "2"); // Produce 12
+console.log("1" + 2 + 2); // Produce 122
+console.log(1 + 2 + "2"); // Produce 32
+
+console.log(+true); // Produce 1
+// console.log(true+); // Unexcpted Token Error
+console.log(+""); //String by this + Produce 0
+
+let gamecounter = 100;
+gamecounter++;
+console.log(gamecounter);
